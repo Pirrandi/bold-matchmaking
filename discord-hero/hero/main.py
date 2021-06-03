@@ -54,7 +54,7 @@ def main(test, **kwargs):
             if confirm("You need a bot token for your bot. Do you want to create a "
                        "bot now? (This will open a browser window/tab.)"):
                 launch("https://discordapp.com/developers/applications/")
-        os.environ['BOT_TOKEN'] = input("Bot token: ")
+        os.environ['BOT_TOKEN'] = input("Bot token:ODUwMTEwNjMzNDUzOTQ0ODYz.YLk9OQ.lj00BRhzpl2aGjHZXBqn3PNTJPc ")
 
     config = Config(test)
     config.save()
